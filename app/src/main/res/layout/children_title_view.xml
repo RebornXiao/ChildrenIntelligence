@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout 
+	    android:id="@+id/title_bg"
+	    android:layout_width="fill_parent"
+	    android:layout_height="56sp"
+	    android:gravity="center"
+	    android:background="#5cc5ff">
+	    <TextView
+        android:id="@+id/ivback"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        android:layout_marginLeft="8sp"
+        android:visibility="invisible"/>
+    <TextView 
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"/>
+    <TextView
+        android:id="@+id/tvTitle"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        style="@style/Text.Title"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3.0"
+        />
+    
+    <TextView 
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"/>
+   <!-- <ImageView
+        android:id="@+id/ivshare"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.5"/> -->
+    <TextView
+        android:id="@+id/ivset"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5sp"
+        android:layout_weight="1.8"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:visibility="invisible"/>
+	</LinearLayout>
+    
+
+</LinearLayout>

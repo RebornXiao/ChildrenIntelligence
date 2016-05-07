@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChildrenIntelligence</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="register">注册</string>
+    <string name="useInfo">用户信息</string>
+    <string name="mainActivity">主界面</string>
+    <string name="inputNum">请输入电话号码</string>
+    <string name="userChoice">用户选择</string>
+    <string name="useradd">用户添加</string>
+    <string name="back">返回</string>
+    <string name="hostory_record">历史记录</string>
+</resources>

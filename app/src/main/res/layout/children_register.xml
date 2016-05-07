@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <xiao.com.childrenintelligence.view.TitleView
+        android:id="@+id/mtitleview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText 
+	    android:id="@+id/etinputNum"
+	    android:layout_width="match_parent"
+	    android:layout_height="40sp"
+	    android:layout_marginLeft="25sp"
+	    android:layout_marginRight="25sp"
+	    android:hint="@string/inputNum"
+	    android:paddingLeft="5dp"
+	    android:layout_marginTop="25dp"
+	    android:background="@drawable/edittextview_style"
+        android:numeric="integer"
+	    />
+	<TextView 
+	    android:id="@+id/tvcomment"
+	    android:layout_width="match_parent"
+	    android:layout_height="40sp"
+	    android:text="完成添加"
+	    android:textSize="22sp"
+	    android:layout_marginLeft="25sp"
+	    android:layout_marginRight="25sp"
+	    android:gravity="center"
+	    android:background="@drawable/textview_style"
+	    android:layout_marginTop="15dp" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0">
+        
+    </LinearLayout>
+	
+	
+	<!-- <TextView 
+	    android:id="@+id/tv"
+	    android:layout_width="match_parent"
+	    android:layout_height="240dp"
+	    android:textSize="22sp"
+	    android:layout_marginLeft="25sp"
+	    android:layout_marginRight="25sp"
+	    android:gravity="center"
+	    android:background="@drawable/textview_style"
+	    android:layout_marginTop="5dp" /> -->
+	
+</LinearLayout>
